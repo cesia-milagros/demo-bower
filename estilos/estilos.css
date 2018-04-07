@@ -1,0 +1,514 @@
+body{
+    margin: 0;
+    /*LOS NAV*/
+}.navbar .navbar-inverse{
+    border-radius: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border:0;
+}.navbar .navbar-inverse>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover{
+    padding: blue;
+    background: transparent;
+    font-weight: bold;
+}.navbar-inverse .navbar-nav>li>a{
+    color:aliceblue;
+    font-weight: bold;
+}.
+navbar-header .navar-toggle{
+position:relative;
+    float: right;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    /*SLIDEER*/
+}.carousel-inner>-item>a>img,.carousel-inner>.item>img{
+    width: 100%;
+   
+}.carousel-caption h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+    
+}.carousel-caption p{
+ font-size:20px;
+    margin-bottom: 20px;
+}.slider-one{
+   /*ICONO CHEF*/  
+}#icono-chef{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    padding: 60px;
+}/*MEDIA QUERY PARA ICNOMOCHEF*/
+@media(max-width:768px){
+    #icono-chef{
+        width: 100px;
+         padding: 10px;
+    } 
+    /* STYLE PARA NUESTRO PASTEL*/
+}#nuestros-pas{
+    background-image: url("../img/pastelerias1.jpg");
+    padding: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    animation:movimiento 3s infinite linear alternate;
+    
+}@keyframes movimiento{
+    from{
+       background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+    
+}#delivery-pas{
+    background-image: url("../img/pastelerias1.jpg");
+    padding: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    animation:movimiento 5s infinite linear alternate;
+    
+}
+@keyframes movimiento{
+    from{
+       background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+    
+}#delivery-pas article{
+    margin-bottom: 30px;
+}#delivery-pas article .delivery-pastel{
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 15px;
+   /*DISEÑO NUEStitulo-pastelTOS PASTELES P*/
+}#eventos-pas{
+    background-image: url("../img/centenario.jpg");
+    padding: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    animation:movimiento 5s infinite linear alternate;
+    
+}#eventos-pas article{
+    margin-bottom: 30px;
+}#eventos-pas article .delivery-pastel{
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 15px;
+   /*DISEÑO NUEStitulo-pastelTOS PASTELES P*/
+}
+#nuestros-pas article{
+    margin-bottom: 30px;
+}#nuestros-pas article .nuestro-pastel{
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 15px;
+   /*DISEÑO NUEStitulo-pastelTOS PASTELES P*/
+}#presentar-pastel{
+    
+}#presentar-pastel #titulo-pastel{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px ;
+    width: 50%;
+    font-size: 28px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    
+}#titulo-pastel span{
+    font-family: 'Patua One';
+  text-align: center;
+    margin: 100px auto; 
+}#titulo-pastel .pastel-rojo{
+    color:rgba(109,0,25,0.8);
+    font-family:'Lobster', sans-serif;
+    font-weight: 900;
+}.pass-one{
+   
+   height: 150px;
+
+    border-bottom:dotted 2px  rgba(181,198,208,0.82) ;
+   
+     
+}.pass-dos{
+   height: 150px;
+  
+ 
+  border-bottom:dotted 2px  rgba(181,198,208,0.82) ;
+}.pass-content{
+   height: 100px;
+    font-family: 'josefin Sans'
+ 
+}.pass-img{
+  height: 40px;
+  
+}.pass-titulo{
+   height: 40px;
+  
+}
+/*PRECIO PASTEL*/
+.precio_de{
+   width: 60px;
+    height: 50px;
+    
+    float: right;
+
+}.precio_de p{
+   font-size: 18px;
+    font-weight: bolder;
+    color:rgba(109,0,25,0.8);
+   font-family:'Lobster', sans-serif,cursive; 
+}.nombre_de{
+  width: 0;
+    height: 0; 
+}.nombre_de p{
+    font-size: 25px;
+    font-weight: bolder;
+    color:rgba(109,0,25,0.8);
+   font-family:'Lobster', sans-serif,cursive;
+    text-align: center;
+    margin-top: 5px;
+  /*IMG CONTENIDOS*/  
+}.contenido_pa_de{
+  
+    height: 70px;
+    margin-left: 0px;
+    
+}.conten-img-pass{
+    width:19%;
+   height: 70px;
+    float: left;
+   
+    margin-top: -px; 
+}.conten-img-pass img{
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}.precio{
+    width: 60px;
+    height: 50px;
+   
+    
+} .precio p{
+   font-size: 18px;
+    font-weight: bolder;
+    color:rgba(109,0,25,0.8);
+   font-family:'Lobster', sans-serif,cursive;
+    
+}.nombre{
+    width: 150px;
+    height: 50px;
+    
+    float: right;
+    margin-top: -53px;
+   
+   
+}.nombre p{
+    font-size: 25px;
+    font-weight: bolder;
+    color:rgba(109,0,25,0.8);
+   font-family:'Lobster', sans-serif,cursive;
+    text-align: center;
+    margin-top: 0px
+    
+}.contenido_pa{
+    width: ;
+    height: 70px;
+  
+}.conten-pass-img{
+    width:140%;
+   height: 70px;
+    float: right;
+   
+    margin-top: 0px;
+}.conten-pass-img img{
+    width: 120px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+    /*JQUERIES PARA CELUALRES DE PASTEL*/
+}@media (max-width: 768px) {
+    
+    .red1 .fab {
+   padding: 15px ;
+    font-size: 40px;
+   margin: 0 auto;
+        margin-left: -200px;
+    
+} .red2 .fab {
+   padding: 15px ;
+    font-size: 40px;
+     margin: 0 auto;
+        margin-left: -100px;
+    margin-top: -20px;
+    
+} .red3 .fab {
+   padding: 15px ;
+    font-size: 40px;
+   margin-top: -40px;
+      
+    
+}
+    
+    
+.pass-one{
+   
+   height: 300px;
+
+     
+}.pass-dos{
+    padding: 20px;
+   height: 300px;
+  
+
+}.conten-img-pass{
+    width:19%;
+   height: 70px;
+    margin: 0px auto;
+margin-left: 60px;
+ margin-right: 0;
+    
+   
+    margin-top: -px; 
+}.conten-img-pass img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}.conten-pass-img{
+    width:19%;
+   height: 70px;
+    margin-top: 0px;
+    margin: 0px auto;
+margin-left: 0px;
+ margin-right: 150px;
+}.conten-pass-img img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+   
+    }
+
+   #nuestros-pas   .principal{
+       width:100%; 
+    }#nuestros-pas .cuadro{
+        width: 300px;
+        margin-left:-0.1px ;
+    }#nuestros-pas .cuadro h2{
+        font-size: 18px;
+        padding: 20px;
+        text-align: center;
+    }#nuestros-pas .cuadro p{
+        font-size: 15px;
+    }#eventos-pas .principal{
+       width:100%; 
+    }#eventos-pas  .cuadro{
+        width: 300px;
+        margin-left:-0.1px ;
+    }#eventos-pas  .cuadro h2{
+        font-size: 22px;
+        padding: 20px
+    }#eventos-pas  .cuadro p{
+        font-size: 15px;
+    }#delivery-pas .principal{
+       width:100%; 
+    }#delivery-pas .cuadro{
+        width: 300px;
+        margin-left:-0px 
+            ;
+        text-align: center;
+      
+    }#delivery-pas  .cuadro h2{
+        font-size: 22px;
+        padding: 20px
+    }#delivery-pas  .cuadro p{
+        font-size: 15px;
+    }
+	
+	/*ADORNO FRASES DELIVERY*/
+}.principal{
+    
+   width: 800px;
+  border-left: 2px solid  rgba(239,197,202,1);
+    border-right: 2px solid  rgba(239,197,202,1);
+   height: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+     
+}
+.cuadro{
+
+    width: 600px;
+    margin-left: 90px;
+    height: 200px;
+    
+    background-color:rgba(237,237,237,0.56) ;
+    margin-top: 20px;
+    text-align: center;
+    
+    
+}.cuadro h2{
+    color:rgba(109,0,25,0.8);
+    font-family:'PT Serif',sans-serif;
+    font-style: oblique;
+    font-size:40px;
+}.cuadro p{
+    color:black;
+    font-family:'Crimson Text',sans-serif;
+    font-size:25px;
+    
+}.cuadro a{
+    width: 80px;
+    height: 60px;
+    color:white;
+    font-family:'Crimson Text',sans-serif;
+    font-size:20px;
+    padding: 10px 70px  ;
+    background-color: rgba(255,175,75,1);
+    text-decoration: none;
+    font-family:'Copse', serif;
+    border-radius: 20px 20px;
+    /*MASTER PASTLERO*/
+}
+.master-pastelero{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Patua One';
+    /*GALERIAS*/
+}.uno{
+    height: 300px;
+    padding: 20px;
+  
+   /* background-color: blueviolet;*/
+}.dos{
+    height: 300px;
+    padding: 20px;
+   /* background-color: darkgreen;*/
+}.tres{
+    height: 300px;
+    padding: 20px;
+   /* background-color: firebrick;*/
+    margin-left: 0;
+    margin-right: 0;
+}.uno img {  
+	
+	 width: 100%;    height: px; float:left;margin-left: 0;
+    margin-right: 0;
+}.dos img {  
+	 width: 100%;    height:auto ;margin-left: 0;
+    margin-right: 0;
+	
+}.tres img { width:100%;   
+	height: auto; float: left;margin-left: 0;
+    margin-right: 0;
+/*FOOTER*/
+}footer{	
+	/*background-color: rgba(255, 43, 84, 0.6);; */
+   background-image: url("../img/sl5.jpg");
+	padding: 30px;
+	color:white;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}.info{
+    
+   height: 200px;
+  
+}.time{
+   height: 200px;
+  
+}.redes{
+    padding: 20px;
+    width: 10px;
+    height: 100px;
+   
+    margin: 0 auto;
+
+}.redes-content{
+    
+    width: 50%;
+    height: 50px;
+    
+    margin: 0 auto;
+    
+
+}
+.red1{
+    padding: 0px;
+    width: 10px;
+    height: 20px;
+  
+   margin-left: 50px;
+
+}.red2{
+    padding: 0px;
+    width: 10px;
+    height: 20px;
+ 
+    margin-left: 50px;
+
+}.red2  li {
+    display: none;
+    text-decoration: none;
+}
+.red3{
+    padding: 0px;
+    width: 10px;
+    height: 20px;
+ 
+      margin-left: 50px;
+
+}
+.fab {
+   padding: 15px ;
+    font-size: 30px;
+    margin: 0 auto;
+     color:darkred;
+    background-color:rgba(245, 245, 245, 0.64);
+    border-radius: 50%
+    
+}
+.menu{
+   height: 200px;
+    
+}
+footer h2{
+	font-family: 'Patua One', sans-serif;
+	font-weight: bold;
+}
+footer p {
+	font-family: 'josefin Sans', sans-serif;
+	font-weight: bold;
+    font-size: 16px;
+}
+
+footer a{
+	color: #dddddd;
+    
+}
+footer a:hover{
+	color: #00BCD4;
+}.footer-dos{
+    width: 100%;
+    height: 50px;
+    background:rgba(143,2,34,0.79);
+   padding: 10px;
+}.footer-dos p{
+    margin-bottom: 0 auto;
+    text-align: center;
+}.red1  :hover{
+background-color: darkred;
+    color: white;
+}.red2 :hover{
+background-color: darkred;
+    color: white;
+}.red3 :hover{
+background-color: darkred;
+    color: white;
+}
